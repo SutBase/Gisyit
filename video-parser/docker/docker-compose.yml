@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  video-parser:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: video-parser
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ../logs:/app/logs
+    networks:
+      - video-parser-network
+
+  # 可选：添加Nginx反向代理
+  nginx:
+    image: nginx:alpine
+    container_name: video-parser-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - video-parser
+    networks:
+      - video-parser-network
+
+networks:
+  video-parser-network:
+    driver: bridge
