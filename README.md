@@ -12,6 +12,8 @@
 
 ## Project Overview
 
+<img src="assets/02.png" alt="Gisyit" width="400"/>
+
 This is a **user-driven product experiment** where the platform's direction is determined by its community.
 
 The project follows a **“idea crowdsourcing + execution by me”** model: users propose real needs and ideas, while I handle system architecture, engineering implementation, and continuous iteration. Feature priorities are entirely driven by community feedback and voting — no assumptions, no closed-door decisions.
