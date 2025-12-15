@@ -7,6 +7,8 @@
 >
 > - **v0.01** (Stable): Available on the [`main`](https://github.com/SutBase/Gisyit/main) branch
 
+<img src="assets/01.svg" alt="Gisyit" width="400"/>
+
 
 ## Project Overview
 
