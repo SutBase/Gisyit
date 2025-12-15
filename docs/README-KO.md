@@ -1,11 +1,19 @@
-# 공동 창작 AI 플랫폼
+# Gisyit-apps
 
 [English](../README.md) | [中文](README-CN.md) | [日本語](README-JP.md)
+> \[!NOTE]
+>
+> **버전 정보**
+>
+> - **v0.01** (Stable): [`main`](https://github.com/SutBase/Gisyit/main) 브랜치에서 사용 가능
+
+<img src="assets/01.svg" alt="Gisyit" width="400"/>
 
 ---
 
-![AI PPT 예시](assets/01.png) 
 ## 프로젝트 개요
+
+<img src="assets/02.png" alt="Gisyit" width="400"/>
 
 이 프로젝트는 **사용자 주도 제품 실험**으로, 플랫폼의 방향은 커뮤니티에 의해 결정됩니다.
 
@@ -38,7 +46,7 @@
 
 현재 개발 중이거나 사용 가능한 도구:
 
-- **AI PPT**: 구조화된, 바로 사용 가능한 프레젠테이션 콘텐츠 자동 생성   
+- **AI PPT**: 구조화된, 바로 사용 가능한 프레젠테이션 콘텐츠 자동 생성  
 - **AI Table**: 복잡한 데이터를 읽기 쉽고 편집 가능한 표로 변환  
 - **CloudNote**: 장기 사용을 위한 클라우드 기반 구조화 노트 시스템  
 - **AI Studio**: 다중 모델, 다중 시나리오 AI 실험 및 창작 공간  
